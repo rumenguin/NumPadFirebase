@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351B05A0298638EA0008DA4A /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B059F298638EA0008DA4A /* AlertView.swift */; };
+		351B05A229863FD50008DA4A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B05A129863FD50008DA4A /* Home.swift */; };
 		35D6751229856C7E00116E72 /* BlingCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D6751129856C7E00116E72 /* BlingCloudApp.swift */; };
-		35D6751429856C7E00116E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D6751329856C7E00116E72 /* ContentView.swift */; };
+		35D6751429856C7E00116E72 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D6751329856C7E00116E72 /* Login.swift */; };
 		35D6751629856C7F00116E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D6751529856C7F00116E72 /* Assets.xcassets */; };
 		35D6751929856C7F00116E72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D6751829856C7F00116E72 /* Preview Assets.xcassets */; };
+		35D675242985753A00116E72 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 35D675232985753A00116E72 /* FirebaseAuth */; };
+		35D675262985760300116E72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35D675252985760300116E72 /* GoogleService-Info.plist */; };
+		35D6752829857EB500116E72 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D6752729857EB500116E72 /* LoginViewModel.swift */; };
+		35D6752B298582AC00116E72 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D6752A298582AC00116E72 /* Countries.swift */; };
+		35D6752D29859E4400116E72 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D6752C29859E4400116E72 /* Verification.swift */; };
+		35D6752F2985A7ED00116E72 /* CustomNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D6752E2985A7ED00116E72 /* CustomNumberPad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351B059E298635CE0008DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		351B059F298638EA0008DA4A /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		351B05A129863FD50008DA4A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		35D6750E29856C7E00116E72 /* BlingCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlingCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D6751129856C7E00116E72 /* BlingCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlingCloudApp.swift; sourceTree = "<group>"; };
-		35D6751329856C7E00116E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35D6751329856C7E00116E72 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		35D6751529856C7F00116E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35D6751829856C7F00116E72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35D675252985760300116E72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35D6752729857EB500116E72 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		35D6752A298582AC00116E72 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		35D6752C29859E4400116E72 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		35D6752E2985A7ED00116E72 /* CustomNumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberPad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D675242985753A00116E72 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +68,12 @@
 		35D6751029856C7E00116E72 /* BlingCloud */ = {
 			isa = PBXGroup;
 			children = (
-				35D6751129856C7E00116E72 /* BlingCloudApp.swift */,
-				35D6751329856C7E00116E72 /* ContentView.swift */,
+				351B059E298635CE0008DA4A /* Info.plist */,
+				35D675252985760300116E72 /* GoogleService-Info.plist */,
+				35D675292985819800116E72 /* Model */,
+				35D675212985741800116E72 /* ViewModel */,
+				35D675202985741200116E72 /* View */,
+				35D6751F29856C8E00116E72 /* App */,
 				35D6751529856C7F00116E72 /* Assets.xcassets */,
 				35D6751729856C7F00116E72 /* Preview Content */,
 			);
@@ -65,6 +86,42 @@
 				35D6751829856C7F00116E72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35D6751F29856C8E00116E72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				35D6751129856C7E00116E72 /* BlingCloudApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		35D675202985741200116E72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35D6751329856C7E00116E72 /* Login.swift */,
+				35D6752C29859E4400116E72 /* Verification.swift */,
+				35D6752E2985A7ED00116E72 /* CustomNumberPad.swift */,
+				351B059F298638EA0008DA4A /* AlertView.swift */,
+				351B05A129863FD50008DA4A /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35D675212985741800116E72 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				35D6752729857EB500116E72 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		35D675292985819800116E72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35D6752A298582AC00116E72 /* Countries.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,9 @@
 			dependencies = (
 			);
 			name = BlingCloud;
+			packageProductDependencies = (
+				35D675232985753A00116E72 /* FirebaseAuth */,
+			);
 			productName = BlingCloud;
 			productReference = 35D6750E29856C7E00116E72 /* BlingCloud.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = 35D6750529856C7E00116E72;
+			packageReferences = (
+				35D675222985753A00116E72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 35D6750F29856C7E00116E72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +190,7 @@
 			files = (
 				35D6751929856C7F00116E72 /* Preview Assets.xcassets in Resources */,
 				35D6751629856C7F00116E72 /* Assets.xcassets in Resources */,
+				35D675262985760300116E72 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D6751429856C7E00116E72 /* ContentView.swift in Sources */,
+				35D6752D29859E4400116E72 /* Verification.swift in Sources */,
+				35D6751429856C7E00116E72 /* Login.swift in Sources */,
+				351B05A0298638EA0008DA4A /* AlertView.swift in Sources */,
 				35D6751229856C7E00116E72 /* BlingCloudApp.swift in Sources */,
+				35D6752B298582AC00116E72 /* Countries.swift in Sources */,
+				35D6752829857EB500116E72 /* LoginViewModel.swift in Sources */,
+				351B05A229863FD50008DA4A /* Home.swift in Sources */,
+				35D6752F2985A7ED00116E72 /* CustomNumberPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +340,13 @@
 				DEVELOPMENT_TEAM = 734G6V9GXJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlingCloud/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +354,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rumenguin.BlingCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +374,13 @@
 				DEVELOPMENT_TEAM = 734G6V9GXJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlingCloud/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +388,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rumenguin.BlingCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35D675222985753A00116E72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		35D675232985753A00116E72 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35D675222985753A00116E72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 35D6750629856C7E00116E72 /* Project object */;
 }
